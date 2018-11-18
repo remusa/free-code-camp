@@ -160,6 +160,7 @@ footer {
 
 /* MEDIA QUERIES */
 @media (max-width: 600px) {
+
 	nav,
 	nav ul,
 	footer {
