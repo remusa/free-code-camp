@@ -1,0 +1,1 @@
+{"index.js":"\"use strict\";\r\n\r\nimport * as stringFunctions from \"capitalize_strings\";"}
