@@ -1,0 +1,1 @@
+{"index.js":"function truncateString(str, num) {\n  if (str.length > num) {\n    let truncated = str.slice(0, num)\n    truncated += '...'\n    return truncated\n  }\n\n  return str\n}\n\ntruncateString(\"A-tisket a-tasket A green and yellow basket\", 8);"}

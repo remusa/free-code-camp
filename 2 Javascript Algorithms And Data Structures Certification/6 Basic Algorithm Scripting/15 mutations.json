@@ -1,0 +1,1 @@
+{"index.js":"function mutation(arr) {\n  const first = arr[0].toUpperCase().split('')\n  const second = arr[1].toUpperCase().split('')\n\n  for (let i = 0; i < second.length; i++) {\n    if (first.indexOf(second[i]) === -1) {\n      return false\n    }\n  }\n  return true\n}\n\nmutation([\"hello\", \"hey\"])"}
