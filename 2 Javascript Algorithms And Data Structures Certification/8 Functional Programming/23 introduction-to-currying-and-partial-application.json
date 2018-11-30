@@ -1,0 +1,1 @@
+{"index.js":"function add(x) {\n  // Add your code below this line\n  return (y) => {\n    return (z) => {\n      return x + y + z\n    }\n  }\n  // Add your code above this line\n}\n\nadd(10)(20)(30);"}

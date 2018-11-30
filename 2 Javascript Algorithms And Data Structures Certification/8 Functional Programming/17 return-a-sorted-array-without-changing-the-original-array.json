@@ -1,0 +1,1 @@
+{"index.js":"var globalArray = [5, 6, 3, 2, 9];\n\nfunction nonMutatingSort(arr) {\n  // Add your code below this line\n  return arr.concat([]).sort(\n    (a, b) => a > b\n  )\n  // Add your code above this line\n}\n\nnonMutatingSort(globalArray);"}
