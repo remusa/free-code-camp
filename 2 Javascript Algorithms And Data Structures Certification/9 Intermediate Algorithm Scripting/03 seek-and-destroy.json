@@ -1,0 +1,1 @@
+{"index.js":"function destroyer(arr) {\n  const args = Array.prototype.slice.call(arguments)\n  const newArr = arr\n  .slice()\n  .filter(item => !args.includes(item))\n\n  console.log(newArr)\n  return newArr;\n}\n\ndestroyer([1, 2, 3, 1, 2, 3], 2, 3);"}
