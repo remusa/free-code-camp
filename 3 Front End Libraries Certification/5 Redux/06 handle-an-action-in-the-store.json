@@ -1,0 +1,1 @@
+{"index.jsx":"const defaultState = {\n  login: false\n};\n\nconst reducer = (state = defaultState, action) => {\n  // change code below this line\n  return (action.type === 'LOGIN') ? { login: true } : defaultState\n  // change code above this line\n};\n\nconst store = Redux.createStore(reducer);\n\nconst loginAction = () => {\n  return {\n    type: 'LOGIN'\n  }\n};"}
